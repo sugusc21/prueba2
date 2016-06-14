@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>pregunta 6</title>
+	<script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("button").click(function(){
+            $("ol").append("<li>Elemento</li>"); 
+        });
+       
+    });
+</script>
+
+    <div>
+    <button>Agregar elemento</button>
+    </div>
+    <p>Presionar botón de arriba para crear elemento</p>
+    <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ol>
+
+
+
+</body>
+</html>

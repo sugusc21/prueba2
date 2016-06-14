@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>pregunta 3</title>
+</head>
+<body>
+	
+	<script>
+	
+	var notas = []
+	function Student(nombre, notas) {
+  	this.nombre = nombre;
+  	this.notas = notas;
+  	this.promedio = function (notas) {
+  		for(var i = 0; i < this.notas.length; i++) {
+    	var total = 0
+    	total += notas;
+		}
+		var prom = total / this.notas.length
+  		}
+}
+
+alumno1	=	new Student("Oscar", [10, 9, 10])
+alumno1.promedio() //	9.6666667
+	
+</script>
+</body>
+</html>

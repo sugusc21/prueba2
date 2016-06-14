@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>pregunta 2</title>
+</head>
+<body>
+	<script>
+		var trabaj = new Jugador ("Juan", 33, 3)
+
+		function Jugador (nombre, edad, partidos) {
+
+			var obj = {
+
+				nombre: nombre,
+				edad: edad,
+				partidos: partidos,
+			};
+			return obj;
+		}
+
+	</script>
+</body>
+</html>

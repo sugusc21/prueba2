@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>pregunta1</title>
+</head>
+<body>
+	<script>
+		var	alumno1	=	{nombre:	"Matías",	edad:5}
+		var	alumno2	=	alumno1
+		alumno2.nombre	=	"Sebastián"
+
+		// El problema con el código de arriba es que el alumno1 queda con el nombre de Sebastián.
+		// Javascript no soporta la copia de objetos directamente, se debe por ej. explotar la librería de JSON para hacerlo
+	</script>
+</body>
+</html>
